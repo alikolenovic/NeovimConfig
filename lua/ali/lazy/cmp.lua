@@ -39,7 +39,6 @@ return {
           { name = "path" },
         }),
       })
-
       -- Cmdline completion
       cmp.setup.cmdline({ "/", "?" }, {
         mapping = cmp.mapping.preset.cmdline(),

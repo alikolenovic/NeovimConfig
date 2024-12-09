@@ -1,6 +1,9 @@
 -- Set leader key before lazy
 vim.g.mapleader = " "
 
+-- Key Mapping for netrw
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+
 -- Diagnostic config for errors
 vim.diagnostic.config({
     virtual_text = false,

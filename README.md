@@ -3,6 +3,7 @@
 Welcome to my custom Neovim configuration! This setup is tailored for developers who want a fast, modern, and feature-rich coding environment. It includes plugins for autocompletion, syntax highlighting, LSP, debugging, and more.
 
 ## Features
+
 - **Lazy.nvim**: Efficient plugin management.
 - **LSP Integration**: Language Server Protocol for rich code intelligence.
 - **Auto-completion**: Powered by `nvim-cmp` and snippets.
@@ -14,6 +15,7 @@ Welcome to my custom Neovim configuration! This setup is tailored for developers
 ## Installation
 
 ### Windows
+
 1. Install Neovim using Scoop:
    ```powershell
    scoop install neovim
@@ -28,6 +30,7 @@ Welcome to my custom Neovim configuration! This setup is tailored for developers
    ```
 
 ### macOS
+
 1. Install Neovim using Homebrew:
    ```bash
    brew install neovim
@@ -42,6 +45,7 @@ Welcome to my custom Neovim configuration! This setup is tailored for developers
    ```
 
 ### Linux
+
 1. Install Neovim using your package manager:
    ```bash
    sudo apt install neovim  # Debian/Ubuntu
@@ -71,7 +75,9 @@ Welcome to my custom Neovim configuration! This setup is tailored for developers
 ## Key Features
 
 ### Plugins
+
 This configuration includes the following plugins:
+
 - **Lazy.nvim**: Plugin manager.
 - **nvim-treesitter**: Enhanced syntax highlighting.
 - **nvim-lspconfig**: Language Server Protocol setup.
@@ -79,6 +85,7 @@ This configuration includes the following plugins:
 - **nvim-tree.lua**: File explorer.
 
 ### Custom Keybindings
+
 - **Space** is the leader key.
 - Quickly toggle file explorer: `<leader>e`.
 - Navigate diagnostics: `[d` (previous), `]d` (next).
@@ -86,7 +93,9 @@ This configuration includes the following plugins:
 - Git integration with Fugitive.
 
 ## Contributing
+
 Contributions are welcome! To contribute:
+
 1. Fork the repository.
 2. Create a feature branch.
 3. Submit a pull request.
@@ -94,6 +103,7 @@ Contributions are welcome! To contribute:
 ## Troubleshooting
 
 ### Common Issues
+
 - **Error: Missing Dependencies**: Ensure that you have the required tools installed:
   - `git`, `node`, `python3`, `gcc` and `pip` for various plugin dependencies.
 - **LSPs not installed**: Run :help lspconfig-all and look through the docs to install any
@@ -103,9 +113,11 @@ Contributions are welcome! To contribute:
   ```
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-For questions or feedback, feel free to reach out:
-- **GitHub**: [alikolenovic](https://github.com/alikolenovic)
 
+For questions or feedback, feel free to reach out:
+
+- **GitHub**: [alikolenovic](https://github.com/alikolenovic)

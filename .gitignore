@@ -1,0 +1,51 @@
+# Swap files
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Session files
+Session.vim
+*.ses
+
+# Undo files
+*.un~
+
+# Plugin directories
+plugged/
+lazy/
+packer_compiled.lua
+lazy-lock.json
+
+# Cache files
+.viminfo
+.viminfo.*
+shada/*
+shada
+shada.*.vim
+*.shada
+
+# Log files
+log/*
+*.log
+.lsp_log
+
+# Generated or temporary files
+node_modules/
+dist/
+*.lock
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Compiled Lua files
+*.luac
+
+# Language Server Protocol files
+workspace/
+nvim-lsp.log
+lsp_log

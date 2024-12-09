@@ -16,7 +16,7 @@ Session.vim
 
 # Plugin directories
 plugged/
-lazy/
+plugin/
 packer_compiled.lua
 
 # Cache files

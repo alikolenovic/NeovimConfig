@@ -18,7 +18,6 @@ Session.vim
 plugged/
 lazy/
 packer_compiled.lua
-lazy-lock.json
 
 # Cache files
 .viminfo

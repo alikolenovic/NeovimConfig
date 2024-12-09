@@ -12,6 +12,13 @@ vim.diagnostic.config({
 })
 -- Floating window keybind
 vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>dt", function()
+    if vim.diagnostic.is_enabled() then
+        vim.diagnostic.enable(false)
+    else
+        vim.diagnostic.enable(true)
+    end
+end)
 
 require("ali.lazy_init")
 require("ali.remap")

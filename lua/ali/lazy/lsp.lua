@@ -59,7 +59,7 @@ return {
           local client = vim.lsp.get_client_by_id(args.data.client_id)
           if not client then return end
           -- Apply format-on-save for non-TypeScript files
-          local excluded_filetypes = { "typescript", "typescriptreact" }
+          local excluded_filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact", "mjs" }
           local filetype = vim.bo[args.buf].filetype
 
           if not vim.tbl_contains(excluded_filetypes, filetype) and client.supports_method("textDocument/formatting") then

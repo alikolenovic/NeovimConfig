@@ -95,7 +95,8 @@ Contributions are welcome! To contribute:
 
 ### Common Issues
 - **Error: Missing Dependencies**: Ensure that you have the required tools installed:
-  - `git`, `node`, `python3`, and `pip` for various plugin dependencies.
+  - `git`, `node`, `python3`, `gcc` and `pip` for various plugin dependencies.
+- **LSPs not installed**: Run :help lspconfig-all and look through the docs to install any
 - **Plugins Not Installing**: Run:
   ```bash
   :Lazy sync

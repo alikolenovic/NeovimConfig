@@ -28,6 +28,12 @@ return {
       -- Lua Server
       lspconfig.lua_ls.setup { capabilities = capabilities }
 
+      -- Python Server
+      lspconfig.pyright.setup {}
+
+      -- NGINX
+      lspconfig.nginx_language_server.setup {}
+
       -- Go Server
       lspconfig.gopls.setup {
         capabilities = capabilities,

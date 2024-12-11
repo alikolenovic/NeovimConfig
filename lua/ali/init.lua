@@ -4,6 +4,14 @@ vim.g.mapleader = " "
 -- Key Mapping for netrw
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
+-- Fix file endings
+vim.api.nvim_create_autocmd("BufNewFile", {
+  pattern = "*",
+  callback = function()
+    vim.opt_local.fileformat = "unix"
+  end,
+})
+
 -- Diagnostic config for errors
 vim.diagnostic.config({
   virtual_text = false,

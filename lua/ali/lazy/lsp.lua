@@ -95,6 +95,7 @@ return {
         pyright = {},
         tailwindcss = {},
         nginx_language_server = {},
+        dockerls = {},
         ts_ls = {},
         lua_ls = {
           settings = {
@@ -139,6 +140,8 @@ return {
           end,
         },
       }
+
+      lspconfig.docker_compose_language_service.setup {}
 
       -- ESLint
       lspconfig.eslint.setup({

@@ -1,9 +1,7 @@
 vim.cmd.colorscheme("tokyonight")
 
-vim.opt.clipboard = 'unnamedplus' -- use system keyboard for yank
-
-vim.opt.nu = true                 -- set line numbers -- set line numbers
-vim.opt.relativenumber = true     -- use relative line numbers
+vim.opt.nu = true             -- set line numbers -- set line numbers
+vim.opt.relativenumber = true -- use relative line numbers
 vim.opt.undofile = true
 -- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
 vim.opt.ignorecase = true

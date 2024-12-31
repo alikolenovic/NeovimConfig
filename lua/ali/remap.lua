@@ -2,11 +2,11 @@ local wk = require("which-key")
 
 wk.add({
   -- File-related mappings
-  { "<leader>f", group = "file" },       -- Leader key for  
-  { "ff", "<cmd>Telescope find_files<cr>", desc = "Find File" },
-  { "fb", function() print("hello") end, desc = "Foobar" },
-  { "fn", desc = "New File" },
-  { "f1", hidden = true }, -- Hidden mapping
+  { "<leader>f", group = "file" }, -- Leader key for
+  { "ff",        "<cmd>Telescope find_files<cr>", desc = "Find File" },
+  { "fb",        function() print("hello") end,   desc = "Foobar" },
+  { "fn",        desc = "New File" },
+  { "f1",        hidden = true }, -- Hidden mapping
 
   -- Window-related mappings
   {
@@ -31,4 +31,3 @@ wk.add({
     { "<leader>w", "<cmd>w<cr>", desc = "Write" },
   }
 })
-

@@ -36,7 +36,9 @@ return {
             vim.keymap.set(mode, keys, func, { buffer = args.buf, desc = 'LSP: ' .. desc })
           end
 
-          map('gd', require('telescope.builtin').lsp_definitions, '[G]oto [D]efinition')
+          map('gd', function()
+            require('telescope.builtin').lsp_definitions()
+          end, '[G]oto [D]efinition')
 
 
           map('gr', require('telescope.builtin').lsp_references, '[G]oto [R]eferences')
